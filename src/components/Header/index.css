@@ -1,0 +1,48 @@
+.nav-bar{
+    background-color: #02020e;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.cart-name{
+    color: #ffffff;
+    font-family: "Roboto";
+    font-style: italic;
+    font-size: 25px;
+}
+.logout-button{
+    color: #ffffff;
+    font-size: 22px;
+    background-color: #e63946;
+    border: none;
+    padding: 10px;
+    font-weight: 500;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+.logout-button:hover{
+    background-color: #c5303a;
+}
+.user-name{
+    color: white;
+    font-size: 18px;
+    margin-left: 20px;
+
+}
+.logout-button-name-contaier{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+span{
+    background-color: #00c896;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    padding: 10px;
+    margin-right: 10px;
+}
